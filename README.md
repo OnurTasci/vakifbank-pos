@@ -1,4 +1,4 @@
-# Vakıfbank Ortak Ödeme Sanal POS
+# Vakıfbank Ortak Ödeme Sayfası - Sanal POS
 
 Bu proje, Vakıfbank'ın ortak ödeme sanal POS entegrasyonu için bir PHP sınıfı sunmaktadır. Bu sınıf, Vakıfbank'ın API'sine kolayca entegre olmanızı sağlar.
 
