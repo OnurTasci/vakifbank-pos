@@ -7,24 +7,9 @@ Bu proje, Vakıfbank'ın ortak ödeme sanal POS entegrasyonu için bir PHP sın�
 - PHP 7.2 veya üzeri
 - cURL eklentisi
 
-## Kurulum
-
-1. Projeyi klonlayın:
-    ```bash
-    git clone https://github.com/OnurTasci/vakifbank-pos.git
-    ```
-
-2. Proje dizinine girin:
-    ```bash
-    cd vakifbank-pos
-    ```
-
-3. Vakıfbank tarafından sağlanan API bilgilerini (Merchant ID, User ID, Password vb.) `config.php` dosyasına ekleyin.
-
 ## Kullanım
 
 Aşağıda, `example.php` dosyasındaki örnek kodu görebilirsiniz. Bu kod, bir ödeme işlemi yapmak için nasıl kullanılacağını gösterir.
-
 
 
 ## Ödeme Başlatma
