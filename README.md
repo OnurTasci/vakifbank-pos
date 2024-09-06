@@ -34,14 +34,14 @@ $vakifBank = new vakifBank($setting);
 $orderID = time().rand(0,999);
 $amount = number_format('100',2);
 $amountCode = 949;
-$OrderDescription = '#'.$orderID.'Order';
+$orderDescription = '#'.$orderID.'Order';
 
 $paymentData = [
     'TransactionId' => $orderID,
     'OrderId' => $orderID,
     'Amount' => $amount,
     'AmountCode' => $amountCode,
-    'OrderDescription' => $OrderDescription,
+    'OrderDescription' => $orderDescription,
 ];
 
 
